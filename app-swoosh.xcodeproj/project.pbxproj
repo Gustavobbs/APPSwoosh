@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		150A79E9242D206800F1197A /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A79E8242D206800F1197A /* LeagueVC.swift */; };
 		150A79EB242D20A400F1197A /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A79EA242D20A400F1197A /* SkillVC.swift */; };
+		150A79ED242D2CD800F1197A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A79EC242D2CD800F1197A /* Player.swift */; };
 		15839268242A820500B8E9A3 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15839267242A820500B8E9A3 /* BorderButton.swift */; };
 		15BE8A42242951AD0067324B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE8A41242951AD0067324B /* AppDelegate.swift */; };
 		15BE8A44242951AD0067324B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE8A43242951AD0067324B /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		150A79E8242D206800F1197A /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		150A79EA242D20A400F1197A /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		150A79EC242D2CD800F1197A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		15839267242A820500B8E9A3 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		15BE8A3E242951AD0067324B /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BE8A41242951AD0067324B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		15AA7EBA242D1AD700EDF8E8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				150A79EC242D2CD800F1197A /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				150A79E9242D206800F1197A /* LeagueVC.swift in Sources */,
 				15BE8A46242951AD0067324B /* WelcomeVC.swift in Sources */,
+				150A79ED242D2CD800F1197A /* Player.swift in Sources */,
 				15BE8A42242951AD0067324B /* AppDelegate.swift in Sources */,
 				15BE8A44242951AD0067324B /* SceneDelegate.swift in Sources */,
 				150A79EB242D20A400F1197A /* SkillVC.swift in Sources */,
